@@ -15,11 +15,13 @@ This is a polling application where users can:
 ## Installation and Launch Instructions
 
 1. Install dependencies:
+```bash
    npm install
-
+```
 2. Start the application:
+```bash
    npm start
-
+```
 The app will automatically open in your default browser at `http://localhost:3000`.
 
 ## Features
@@ -39,14 +41,14 @@ The app will automatically open in your default browser at `http://localhost:300
 - Local Storage for data persistence
 
 ## Project Structure
-
+```bash
 polling-app/
 ├── src/
-│ ├── components/ # React components
-│ ├── features/ # Redux slices and actions
-│ ├── utils/ # Utility functions
-│ └── DATA.js # Mock backend data
-
+├──├── components/ # React components
+├──├── features/ # Redux slices and actions
+│──├── utils/ # Utility functions
+└──└── DATA.js # Mock backend data
+```
 ## Notes
 
 - No additional configuration required
